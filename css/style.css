@@ -1,0 +1,178 @@
+body {
+	font-family: Verdana, sans-serif, serif;
+
+}
+
+h2, .text-center {
+	text-align: center;
+}
+.container fieldset {
+	width: 50%;
+	margin: auto;
+}
+
+.container  {
+	margin-bottom: 50px
+}
+/*
+form {
+	border: 1px solid #ddd;
+	padding: 10px;
+	background-color: #eee
+}
+*/
+dl {
+	border: 1px solid #ddd;
+	padding-bottom: 10px;
+	background-color: #eee;
+	margin-top: 0px;
+	width: 60%;
+	margin: auto;
+}
+
+dl dt{
+	clear: left;
+	text-align: right;
+	width: 23%;
+}
+
+dl dd {
+	margin-left: 5px
+}
+
+dl dt, dl dd{
+	float: left;
+	margin-bottom: 2px
+}
+
+.state {
+	width: 80px;
+}
+
+label {
+	font-size: 11px;
+}
+
+.zip {
+	width: 70px;
+	float: left;
+	clear: none;
+}
+
+.txt-zip {
+	width: 99px;
+}
+
+.street_no {
+	width: 80px;
+}
+
+.txt-city, .txt-country {
+	width: 260px;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+.txt-address {
+	margin-left: auto;
+	/*width: 370px;*/
+	width: 60%;
+}
+
+.btn {
+	border: 1px solid #333;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #eee;
+}
+
+.next {
+	float: right;
+}
+
+input[type="text"] {
+	border: 1px solid #aaa;
+	padding: 2px;
+}
+
+.street_address {
+	width: 170px;	
+}
+a.here {
+	text-decoration: underline;
+    color: #000;
+}
+
+form {
+	width: 80%; margin: auto;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+.pull-left {
+	float: left;
+}
+
+.text-center {
+	text-align: center
+}
+
+a.btn-primary {
+	text-decoration: none
+}
+
+ol li {
+	margin-bottom: 10px;
+}
+
+.listdate {
+	font-size: 12px;	
+}
+
+.listdate a {
+	color: #333;
+	text-decoration: underline
+}
+
+.loglist {
+	font-size: 12px;
+}
+
+.text-maroon {
+	color: #800000;
+}
+
+.text-green {
+	color:  green;
+}
+
+.text-red {
+	color: #de1010;
+}
+
+.text-blue {
+	color: #1F83D5;
+}
+
+.stats {
+	font-size: 10pt;
+	width: 100%
+}
+
+.stats tr:hover {
+	background-color: #eee;
+}
+
+.stats tbody tr:nth-child(even) {background: #f0b27a }
+.stats tbody tr:nth-child(odd) {background: #f6ddcc}
